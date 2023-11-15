@@ -1,0 +1,131 @@
+body{
+    background: rgb(9,30,121);
+    background: linear-gradient(90deg, rgba(9,30,121,0.9810049019607843) 24%, rgba(255,0,65,1) 64%, rgba(255,102,0,1) 81%);
+    width: auto;
+}
+.logo{
+
+    display: flex;
+    height: 150px;
+    justify-content: space-around;
+}
+#img{
+    width: 200px;
+    height: 100px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+
+}
+li{
+    padding: 2px;
+    justify-content: space-between;
+    margin: 50px;
+}
+li a{
+    
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+li a:hover{
+    color: black;
+}
+.login{
+    background: rgb(9,30,121);
+background: linear-gradient(90deg, rgba(9,30,121,0.9810049019607843) 24%, rgba(255,0,65,1) 64%, rgba(255,102,0,1) 81%);
+    padding: 10px;
+    margin:50px;
+    width: auto;
+    height: 300px;
+    display:inline-flex;
+
+}
+.login a{
+    color:white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login2{
+
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 20px;
+}
+#username{
+    color:white;
+    font-size:15px;
+}
+#user{
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#username{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+input{
+    width: 200px;
+    height: 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding: 2px 3px;
+    border-color:orangered;
+    border-radius: 10px;
+}
+button{
+    width: 200px;
+    height: 30px;
+    background: rgb(9,30,121);
+background: linear-gradient(90deg, rgba(9,30,121,0.9810049019607843) 24%, rgba(255,0,65,1) 64%, rgba(255,102,0,1) 81%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    border-radius: 10px;
+    border-color:royalblue;
+    cursor: pointer;
+}
+.greeting{
+    padding: 100px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+}
+.greeting img{
+    width: 50px;
+    height: 50px;
+
+}
+.container {
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: block;
+  }
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container input{
+
+        width: 100%;
+        height: 30px;
+        padding: 8px;
+        margin-bottom: 15px;
+        box-sizing: border-box;
+      
+  }
+  
+  
